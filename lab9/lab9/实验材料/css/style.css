@@ -1,0 +1,273 @@
+body{
+	margin: 0 auto;
+	text-align: center;
+	font-size: 12px;
+	color: #522a06;
+	padding: 0;
+	background-image: url(../images/bodybg.gif);
+	font-family: '宋体';
+}
+img{
+	border-width: 0;
+}
+a:link{
+	text-decoration: none;
+	color: #522a06;
+}
+a:hover{
+	text-decoration: underline;
+}
+a:visited{
+	color: #522a06;
+}
+#header{
+	height: 205px;
+	background-image:url(../images/bg.gif);
+	background-repeat: no-repeat;
+}
+#banner{
+	width: 1000px;
+	height: 164px;
+	margin: 0 auto;
+}
+.b_i{
+	position: absolute;
+	top: 38px;
+	left: 25px;
+}
+#nav{
+	height:40px;
+	background-image:url(../images/nav.jpg);
+}
+#nav a{
+	font-weight: 800;
+}
+#nav a:link{
+	color: #fff;
+}
+#nav a:hover{
+	color: #f9f603;
+	text-decoration: none;
+}
+#nav a:visited{
+	color: #fff;
+}
+.nav_body{
+	width: 1000px;
+	margin: 0 auto;
+}
+.nav_content{
+	width: 800px;
+	font-weight: bold;
+	color: #fff;
+	float: left;
+}
+.nav_li1{
+	color: #f9f603;
+	display: inline;
+}
+.nav_li{
+	display: inline;
+}
+.nav_a:hover{
+	height: 40px;
+	color: #f9f603;
+	text-decoration: none;
+}
+.nav_search{
+	float: left;
+}
+.nav_input{
+	width: 140px;
+	height: 19px;
+	background-color: #f8f5ee;
+	position: relative;
+	top: 9px;
+}
+.nav_button{
+	width: 44px;
+	height: 21px;
+	background-color: #000;
+	color: #fff;
+	border:1px solid #f8f5ee;
+	position: relative;
+	top: 10px;
+}
+#content{
+	width: 1000px;
+	margin: 0 auto;
+	clear: both;
+}
+#content_top{
+	overflow: hidden;
+}
+#content_bottom_left{
+	float: left;
+}
+#content_bottom_right{
+	width: 280px;
+	margin: 20px 0 0 0;
+	float: right;
+}
+.news_pic{
+	width: 324px;
+	height: 243px;
+	background-image: url(../images/news_bg.png);
+	float: left;
+	margin: 20px 0 0 0;	
+}
+.news_pic_img{
+	width: 300px;
+	height: 200px;
+	margin: 10px 0 0 0;
+}
+.news_pic_p{
+	width: 300px;
+	height: 22px;
+	text-align: center;
+}
+.news_list{
+	width: 330px;
+	height: 243;
+	margin: 0 0 0 38px;
+	float: left;
+	text-align: left;
+	position: relative;
+	top: 20px;
+}
+.news_list_more{
+	float: right;
+}
+.news_list_ul{
+	height: 200;
+	position: relative;
+	right: 45px;
+}
+.news_list_ul li{
+	line-height: 30px;
+}
+.news_list_ul_time{
+	float: right;
+}
+.news_announce{
+	width: 277px;
+	margin: 20px 0 0 0;
+	float: right;
+}
+.news_announce ul{
+	width: 285px;
+	height: 210px;
+	background-image: url(../images/board_bg.png);
+	text-align: left;
+	line-height: 30px;
+}
+.academic{
+	width: 340px;
+	background-image: url(../images/academic.png);
+	background-repeat: no-repeat;
+	height: 243;
+	margin: 0 0 0 38px;
+	float: left;
+	text-align: left;
+	position: relative;
+	right: 40px;
+}
+.academic img{
+	float: right;
+}
+.academic ul{
+	line-height: 30px;
+	position: relative;
+	top: 40px;
+	right: 40px;
+}
+.book_news{
+	width: 340px;	
+	float: right;
+	background-image: url(../images/book_news.png);
+	background-repeat: no-repeat;
+	text-align: left;
+}
+.book_news img{
+	float: right;
+}
+.book_news ul{
+	line-height: 30px;
+	position: relative;
+	top: 40px;
+	right: 20px;
+}
+.fengcai{
+	width: 700px;
+	height: 250px;
+	clear: both;
+	background-image: url(../images/fengcai_bg2.png);
+	background-repeat: no-repeat;
+	position: relative;
+	top:20px;
+}
+.fengcai .title{
+	position: relative;
+	right: 120px;
+	bottom:50px;
+}
+.fengcai a{
+	float: right;
+}
+.pictures{
+	padding: 20px;
+	height: 136px;
+	border:3px solid black;
+}
+.fengcai ul{
+	list-style-type: none;
+	position: relative;
+	bottom: 50px;
+	right: 50px;
+}
+#content_bottom_right{
+	width: 280px;
+	float: right;
+}
+.mingjiatitle{
+	height: 23px;
+	margin: 0 0 30px 0;
+}
+.mingjia{
+	background-image: url(../images/show_bg.png);
+	background-repeat: no-repeat;
+	padding: 20px 0 0 0;
+}
+.laotou{
+	width: 224px;
+	margin: 0 auto;
+}
+.ouyang{
+	color: red;
+	font-weight: 900;
+}
+.mingjiatext{
+	text-align: left;
+	line-height: 20px;
+	padding: 30px;
+}
+.view{
+	float: right;
+	position: relative;
+	bottom: 30px;
+	right: 25px;
+}
+#footer{
+	height: 105px;
+	clear: both;
+	background-image: url(../images/foot.gif);
+}
+#footer ul{
+	list-style-type: none;
+}
+#footer ul li{
+	display: inline;
+}
+#footer ul li a{
+	font-weight: 800;
+}
